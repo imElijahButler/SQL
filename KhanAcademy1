@@ -1,0 +1,20 @@
+CREATE TABLE socks (id INTEGER PRIMARY KEY, design TEXT, height TEXT, price INTEGER, stock INTEGER);
+
+INSERT INTO socks VALUES (1, "Kentucky", "knee high", 15, 2);
+INSERT INTO socks VALUES (2, "Duke", "knee high", 13, 22);
+INSERT INTO socks VALUES (3, "Kansas", "knee high", 11, 28);
+INSERT INTO socks VALUES (4, "UCLA", "knee high", 12, 26);
+INSERT INTO socks VALUES (5, "butterflies", "ankle", 9, 6);
+INSERT INTO socks VALUES (6, "fairies", "ankle", 8, 8);
+INSERT INTO socks VALUES (7, "ponies", "ankle", 8, 3);
+INSERT INTO socks VALUES (8, "princess", "ankle", 10, 4);
+INSERT INTO socks VALUES (9, "superman", "knee high", 14, 5);
+INSERT INTO socks VALUES (10, "batman", "knee high", 14, 4);
+INSERT INTO socks VALUES (11, "spiderman", "knee high", 16, 1);
+INSERT INTO socks VALUES (12, "dataman", "knee high", 200, 1);
+INSERT INTO socks VALUES (13, "Eugene", "knee high", 12, 4);
+INSERT INTO socks VALUES (14, "Keith", "knee high", 12, 2);
+INSERT INTO socks VALUES (15, "Ned", "knee high", 2, 40);
+
+Select * from socks ORDER BY price;
+SELECT AVG(price) FROM socks
